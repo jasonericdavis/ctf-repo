@@ -2,4 +2,8 @@ name: override perms
 
 on: workflow_dispatch
 
-run: echo I am an action
+jobs:
+  override:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo I am an action
