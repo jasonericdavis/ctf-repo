@@ -5,5 +5,4 @@ on: workflow_dispatch
 jobs:
   override:
     runs-on: ubuntu-latest
-    steps:
-      run: echo I am an action
+    run: echo I am an action
