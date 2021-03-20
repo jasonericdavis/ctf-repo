@@ -1,0 +1,5 @@
+name: override perms
+
+on: workflow_dispatch
+
+run: echo I am an action
