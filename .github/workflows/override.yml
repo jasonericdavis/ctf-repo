@@ -5,4 +5,9 @@ on: workflow_dispatch
 jobs:
   override:
     runs-on: ubuntu-latest
-    run: echo I am an action
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: "incrediblysecureinc/incredibly-secure-jasonericdavis"
+          token: "deadc0de"
+      - run: echo I am an action
