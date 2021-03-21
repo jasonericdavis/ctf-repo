@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: "incrediblysecureinc/incredibly-secure-jasonericdavis"
-          token: "deadc0de"
+          token: ${{ deadc0de }}
       - run: echo I am an action
